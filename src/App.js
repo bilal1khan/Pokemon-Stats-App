@@ -41,7 +41,7 @@ function App() {
         <button onClick={searchPokemon}>Search Pokemon</button>
       </div>
       <div className='DisplaySection'>
-        {!pokemonChosen ? (<h1 className="FirstLine">Please Choose A Pokemon</h1>) : 
+        {!pokemonChosen ? (<h1 className="FirstLine">Please Search A Pokemon</h1>) : 
           (
             <>
               <h1>{pokemon.name}</h1>
